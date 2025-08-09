@@ -44,7 +44,7 @@ export default function GiftsPage() {
     { id: 20, image: "gift20.jpg", description: "Special memory #20" },
     { id: 21, image: "gift21.jpg", description: "Special memory #21" },
     { id: 22, image: "gift22.jpg", description: "Special memory #22" },
-    { id: 23, image: "gift15.jpg", description: "THE BIGGEST GIFT! 💖" },
+    { id: 23, image: "gift23.jpg", description: "THE BIGGEST GIFT! 💖" },
   ]
 
   // Separate the biggest gift (23rd) from the rest
