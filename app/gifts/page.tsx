@@ -44,12 +44,11 @@ export default function GiftsPage() {
     { id: 20, image: "gift20.jpg", description: "Special memory #20" },
     { id: 21, image: "gift21.jpg", description: "Special memory #21" },
     { id: 22, image: "gift22.jpg", description: "Special memory #22" },
-    { id: 23, image: "gift23.jpg", description: "THE BIGGEST GIFT! 💖" },
   ]
 
   // Separate the biggest gift (23rd) from the rest
-  const regularGifts = gifts.slice(0, 22)
-  const biggestGift = gifts[22]
+  const regularGifts = gifts.slice(0, 21)
+  const biggestGift = gifts[21]
 
   return (
     <div className="min-h-screen bg-gradient-to-r from-red-500 via-purple-500 to-blue-500 p-4 md:p-8">
@@ -63,7 +62,7 @@ export default function GiftsPage() {
 
         <div className="gifts-container bg-white/80 backdrop-blur-sm rounded-xl p-6 shadow-xl">
           <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-red-600">
-            🎁 23 Surprise Gifts for Vimu! 🎁
+            🎁 22 Surprise Gifts for Vimu! 🎁
           </h1>
 
           <div className="gift-grid grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
@@ -84,7 +83,7 @@ export default function GiftsPage() {
             >
               <div className="bg-white rounded-lg p-6 flex flex-col items-center">
                 <div className="text-5xl mb-2">🎁</div>
-                <div className="text-xl font-bold text-red-600">Special Gift #23</div>
+                <div className="text-xl font-bold text-red-600">Special Gift 22</div>
                 <div className="mt-2 text-sm text-gray-600">Click to open!</div>
               </div>
             </div>
