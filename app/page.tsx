@@ -32,7 +32,7 @@ export default function HomePage() {
           className="w-full py-6 text-lg bg-gradient-to-r from-red-500 to-blue-500 hover:from-red-600 hover:to-blue-600 transition-all duration-300 shadow-lg"
         >
           <Gift className="mr-2 h-5 w-5" />
-          View 23 Surprise Gifts
+          View 22 Surprise Gifts
         </Button>
 
         {isClient && (
