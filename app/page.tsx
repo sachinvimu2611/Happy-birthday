@@ -35,16 +35,6 @@ export default function HomePage() {
           View 22 Surprise Gifts
         </Button>
 
-        {isClient && (
-          <>
-            <audio id="birthday-music" autoPlay loop>
-              <source src="/birthday-music.mp3" type="audio/mp3" />
-            </audio>
-            <Button variant="ghost" size="icon" onClick={toggleMute} className="mt-4">
-              {isMuted ? <MusicOff className="h-5 w-5" /> : <Music className="h-5 w-5" />}
-            </Button>
-          </>
-        )}
       </div>
     </div>
   )
